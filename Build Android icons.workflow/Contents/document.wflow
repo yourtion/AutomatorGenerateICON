@@ -60,7 +60,9 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>sizes=(144 96 72 29)
-for f in "$@"; do
+OLDIFS="$IFS"
+IFS=$'\n'
+while read f; do
 	for size in ${sizes[@]};do	
 		sips -Z $size $f -o ${f/.png/_$size.png}
 	done
@@ -68,7 +70,7 @@ done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>shell</key>
 					<string>/bin/bash</string>
 					<key>source</key>
@@ -177,7 +179,7 @@ done</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>767.000000:253.000000</string>
+				<string>769.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
