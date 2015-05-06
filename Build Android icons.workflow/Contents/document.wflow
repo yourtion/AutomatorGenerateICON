@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>sizes=(144 96 72 29)
+					<string>sizes=(144 96 72 48)
 OLDIFS="$IFS"
 IFS=$'\n'
 while read f; do
