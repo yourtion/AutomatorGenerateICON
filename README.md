@@ -1,6 +1,8 @@
 # AutomatorGenerateICON
 
-Use automator batch  generate icons
+Use automator batch generate icons
+
+使用 Automator 批量生成 ICON（Android、iOS...）
 
 Detail：[http://blog.yourtion.com/automator-batch-generate-icons.html](http://blog.yourtion.com/automator-batch-generate-icons.html)
 
